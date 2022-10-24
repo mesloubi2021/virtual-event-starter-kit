@@ -1,318 +1,168 @@
 [![Clone DatoCMS project](https://dashboard.datocms.com/clone/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms%2Fvirtual-event-starter-kit%3Amain)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_7yeSwUoVR5no3SlA9WM6oR7l)
 
-# [Virtual Event Starter Kit](https://vercel.com/virtual-event-starter-kit)
+# Virtual Events Starter Kit
 
-### Demo: https://demo.vercel.events
+This virtual event starter kit was used to run [Next.js Conf 2020](https://nextjs.org/2020/conf), which had almost 40,000 live attendees. It includes the following features:
 
-This virtual event starter kit was used to run [Next.js Conf 2020](https://nextjs.org/2020/conf), which had almost 40,000 live attendees. It includes the following features:
-
-- Multiple stages with an embedded YouTube stream
+- Multiple stages - with the ability to add multiple sessions on each stage
+- Each stage can be configured as -
+  - An embedded YouTube stream OR
+  - A live interactive audio-video experience powered by [100ms](https://www.100ms.live)
 - Sponsor expo, including individual virtual booths
-- Career Fair, allowing attendees to network and find job opportunties
+- Career Fair, allowing attendees to network and find job opportunities
 - Ticket registration and generation
 - Speaker pages and bios
 - Schedule
 
 This platform is built upon three principles:
 
-- **Delegation:** Running a conference is difficult – you have to **delegate** tasks to third-parties to ensure success. Certain elements of an online conference experience are tough to get right, and we'd rather lean on established, industry leading solutions.
-- **Flexibility:** While delegating certain elements of the conference experience is helpful, it's also important to own the platform. That's why this template provides a **flexible** open-source codebase that can be modified for your event.
-- **Reducing Risk:** It's inevitable something will go wrong during your event. This platform **reduces risk** by leaning on a dynamic site that outputs as static files using [Incremental Static Generation](https://nextjs.org/docs/basic-features/data-fetching). These static files are cached, ensuring your site is never down. Then, it uses [API Routes](https://nextjs.org/docs/api-routes/introduction) to sprinkle dynamic content on top, which are hosted by a provider with 99.99% uptime.
+- **Delegation:** Running a conference is difficult – you have to **delegate** tasks to third-parties to ensure success. Certain elements of an online conference experience are tough to get right, and we'd rather lean on established, industry leading solutions.
+- **Flexibility:** While delegating certain elements of the conference experience is helpful, it's also important to own the platform. That's why this template provides a **flexible** open-source codebase that can be modified for your event.
+- **Reducing Risk:** It's inevitable something will go wrong during your event. This platform **reduces risk** by leaning on a dynamic site that outputs as static files using [Incremental Static Generation](https://nextjs.org/docs/basic-features/data-fetching). These static files are cached, ensuring your site is never down. Then, it uses [API Routes](https://nextjs.org/docs/api-routes/introduction) to sprinkle dynamic content on top, which are hosted by a provider with 99.99% uptime.
 
-### Built With
+---
 
-- Framework: [Next.js](https://nextjs.org)
+## Built With
+
+- Framework: [Next.js](https://nextjs.org/)
   - [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support)
   - [TypeScript](https://nextjs.org/docs/basic-features/typescript)
-- Videos: [YouTube](https://www.youtube.com)
-- Deployment: [Vercel](https://vercel.com)
-- Authentication: [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/authorizing-oauth-apps)
-- Database: [Redis](https://redis.io)
+- CMS: [Multiple Options](https://datocms.com)
+- Video (Pre-recorded): [YouTube](https://www.youtube.com/)
+- Live interactive video: [100ms](http://www.100ms.live)
+- Deployment: [Vercel](https://vercel.com/)
+- Authentication: [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/authorizing-oauth-apps)
+- Database: [Multiple Options](https://github.com/vercel/virtual-event-starter-kit#database)
+
+## What’s New?
+
+The virtual events starter kit now has added support for organising truly LIVE virtual events. You can quickly setup a live stage and invite speakers to interact with viewers. Live audio-video opens up a ton of possibilities with respect to what you can do with this template. You can use it for:
+
+1. Live Webinars
+2. Community Calls
+3. Hackathons
+4. Panel Discussions
+5. Multi-stage live conferences with a backstage (coming soon)
+
+## **Clone and Deploy**
+
+Click the button below to clone and deploy this template on [Vercel](https://vercel.com/).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/100mslive/virtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-url=https://demo.vercel.events&demo-image=https://demo.vercel.events/deploy.png&integration-ids=oac_7yeSwUoVR5no3SlA9WM6oR7l&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js,%20100ms%20and%20DatoCMS)
+
+You’ll be asked to install the **100ms with DatoCMS** integration. It lets you sign up or log in to 100ms and DatoCMS, and connects your DatoCMS and 100ms account to vercel. In a single integration, you will be able to deploy a fully working template that contains all the elements of the virtual events starter kit.
 
 ## Running Locally
 
-First, set local environment variables. We've included a read-only DatoCMS access token you can use in `.env.local.example`.
+<<<<<<< HEAD
+[![Clone DatoCMS project](https://dashboard.datocms.com/clone/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms%2Fvirtual-event-starter-kit%3Amain)
+=======
+> **NOTE:** Before this setup make sure to deploy the project using 100ms + DatoCMS integration to speed up the setup process.
 
-```
+After the project is deployed on Vercel, you can find `DATOCMS_READ_ONLY_API_TOKEN` and `NEXT_PUBLIC_HMS_TOKEN_ENDPOINT` already setup in the environment-variables section in project settings. The integration also sets up the [rooms](https://docs.100ms.live/server-side/v2/features/room), [templates & roles](https://docs.100ms.live/server-side/v2/foundation/templates-and-roles) associated with it.
+>>>>>>> upstream/main
+
+First, to set local environment variables you can either use Vercel CLI [vercel env pull](https://vercel.com/docs/cli#commands/env) or just manually copy paste them.
+
+```bash
+
+Environment variables determine which CMS to use. See [`lib/cms-api.ts`](lib/cms-api.ts) for details and `.env.local.example` for all environment variables. The demo ([demo.vercel.events](https://demo.vercel.events)) uses DatoCMS.
+### Constants
 cp .env.local.example .env.local
 ```
 
-Then install packages and run the development server:
+Then install the package and run the development server:
 
 ```bash
 yarn install
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Clone and Deploy
-
-Click the button below to clone and deploy this template on [Vercel](https://vercel.com/).
-
-[![Clone DatoCMS project](https://dashboard.datocms.com/clone/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms%2Fvirtual-event-starter-kit%3Amain)
-
-## Customize
-
-### CMS
-
-Environment variables determine which CMS to use. See [`lib/cms-api.ts`](lib/cms-api.ts) for details and `.env.local.example` for all environment variables. The demo ([demo.vercel.events](https://demo.vercel.events)) uses DatoCMS.
-### Constants
-
-`lib/constants.ts` contains a list of variables you should customize.
-
-## Authentication and Database
-
-Some features won’t work until you set up authentication and database. The demo ([demo.vercel.events](https://demo.vercel.events)) uses [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app) for authentication and [Redis](https://redis.io/) for database. You can use different providers as you see fit.
-
-### Authentication
-
-You need to have GitHub OAuth set up to be able to customize the ticket after signing up on the registration form.
-
-First, create a [GitHub OAuth application](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app) to use for authentication.
-
-- Set **Authorization Callback URL** as `<your domain>/api/github-oauth`
-- After creating the OAuth app, create a **client secret**.
-
-#### Running Locally:
-
-- Set the Authorization Callback URL as `http://localhost:3000/api/github-oauth` on GitHub.
-- On `.env.local`, set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` as the **Client ID** of the OAuth app.
-- Set `GITHUB_OAUTH_CLIENT_SECRET` as the **Client secret** of the OAuth app.
-- Finally, make sure the `NEXT_PUBLIC_SITE_ORIGIN` environment variable is set as `http://localhost:3000`. This is required to get the OAuth popup to work locally.
-- Restart the app (`yarn dev`) after editing `.env.local`.
-
-Once it’s set up, sign up using the registration form on the home page (not on a stage page) and then click "Generate with GitHub".
-
-#### On Vercel:
-
-- Set the Authorization Callback URL as `<your deployment’s URL>/api/github-oauth` on GitHub.
-- Set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` and `GITHUB_OAUTH_CLIENT_SECRET` on [Vercel Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
-- Edit `SITE_URL` in `lib/constants.ts` to match your deployment’s URL (no trailing slash).
-- Push the code to redeploy the Project on Vercel.
-
-### Database
-
-You need a database to save user data and enable the following features:
-
-- Generating a unique ticket number for each email when signing up on the registration form. If DB is not set up, it’ll always be `1234`.
-- Generating a unique ticket image or ticket URL after signing in with GitHub. If DB is not set up, each ticket image or URL will show generic data.
-
-The demo ([demo.vercel.events](https://demo.vercel.events)) uses [Redis](https://redis.io/), but you can customize it to use any database you like.
-
-#### Running Redis Locally
-
-1. Install Redis locally and run it.
-2. Specify the following in `.env.local`:
-
-```
-REDIS_PORT=6379 # Default Redis port number
-REDIS_URL=localhost
-REDIS_PASSWORD=
-REDIS_SSL_ENABLED=
-REDIS_EMAIL_TO_ID_SECRET=foo # Come up with your own secret string
-```
-
-> `REDIS_EMAIL_TO_ID_SECRET` will be used to create a hash of the email address, which will be used for the Redis key for each user data (i.e. `id:<hash>`). See `lib/redis.ts` for details.
-
-> If your Redis server has SSL (TLS) encryption enabled then set REDIS_SSL_ENABLED=true
-
-3. Restart the app (`yarn dev`) after editing `.env.local`.
-4. In a separate terminal window, start the Next.js dev server (`yarn dev`) and sign up using the registration form.
-5. In a separate terminal window, run Redis CLI, list keys (`keys *`) and inspect a `id:<hash>` key (`hgetall id:<hash>`). You should see the newly registered user.
-
-#### Using Redis On Vercel
-
-Provision your own Redis instance and set `REDIS_PORT`, `REDIS_URL`, `REDIS_PASSWORD`, `REDIS_SSL_ENABLED` and `REDIS_EMAIL_TO_ID_SECRET` (come up with your own secret string) on [Vercel Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
-
-If you do not want to maintain a Redis server, you can use [Upstash](https://upstash.com) which provides Serverless Redis with a free tier.
-
-## More Details
-
-### Captcha
-
-To help protect your event registration, we've added captcha validation (as an option) with hcaptcha. To use this, popular `NEXT_PUBLIC_HCAPTCHA_SITE_KEY` and `HCAPTCHA_SECRET_KEY` in your `.env` file.
+Open [http://localhost:3000](http://localhost:3000/) to see the landing page.
 
 ### Stages
 
-There are four different stages included in the seed data. Feel free to add or remove these based on your schedule. Each stage requires the user to enter their email to register with the conference before entering the event. After successfully entering their email and saving the user with your database of choice, the user is able to view the embedded YouTube stream. The login state is persisted as a `httponly` cookie.
+There are four different stages included in the seed data. Feel free to add or remove these based on your schedule. Each stage can be easily configured to be a Live Video/Audio experience or an embedded YouTube stream. (You can do all of these configurations via DatoCMS console)
 
-One major feature of the conference platform is a near real-time sync with the CMS. Every five seconds, the stage queries `/api/stages` to fetch the latest information from the CMS. This allows you to make changes on the fly, without the user having the refresh the page. No need for websockets.
+### Joining a stage
 
-The primary use case for this is updating the YouTube embedded URL. Next.js Conf used this to seamlessly switch between pre-recorded videos running as a live premiere, and truly live content (e.g. panels). Plus, we had a few instances where our schedule needed to be tweaked on the fly. This implementation is fault tolerant, as well. The API route is properly cached and if the CMS was to somewhow go down, it won't break the page.
+Visit `/stage/a` after entering your email you should see a "Enter your name" input form.
 
-### Schedule / Speaker Pages
+> NOTE: by default, you will join as a Viewer
 
-Schedule and speaker information is hosted in the CMS. The demo ([demo.vercel.events](https://demo.vercel.events)) is seeded with images from Unsplash and a placeholder schedule. Each speaker has their own page with an image, bio, social media links, and information about their talk. The schedule is also shown as a sidebar on each corresponding stage.
+![join](/media/join.png)
 
-### Sponsor Expo
+Click on Join and you should see "No Speakers Present". This is because only you have joined the Stage aka the "Room" as a viewer. A viewer does not have the permission to publish their audio and video. You can read more about roles in the sections below.
 
-If you'd like to have your event sponsored, the Expo provides a platform to showcase sponsors with:
+![stage.png](/media/stage.png)
 
-- Their logo
-- Four call-to-action links
-- Embedded YouTube video
-- Link to chat room (Discord)
+### Joining with different Roles
 
-For Next.js Conf, we created a Discord channel for each sponsor.
+For this we pass a query param in url for eg: `/stage/a?role=<ROLE_NAME>`
 
-### Career Fair
+- Moderator: `/stage/a?role=backstage`
 
-Networking is vital for in-person conferences and replicating that environment virtually poses a challege. For the Career Fair, this starter provides the ability to list job postings, as well as an external link to talk with the company's recruiters on Discord.
+- Speaker: `/stage/a?role=stage`
 
-### Adding Discord Chat
+- Viewer: `/stage/a`
 
-For Next.js Conf, we used Discord for conference attendees to chat. On each stage, we showed a highlighted message from the corresponding Discord channel. If a user in our allow list used the camera emoji (📸) it would show the message on the stage.
+So if you visit `/stage/a?role=stage` now you should see a Preview screen opening up. After joining you should be able to see yourselves. Open a new tab or invite others to host your next meetup, community calls, etc.
 
-If you'd like to add similar functionality to your conference, you can use the [API route](https://nextjs.org/docs/api-routes/introduction) below to fetch messages after creating a Discord bot. This API route is set up with the proper caching headers and ensures you won't get rate-limited with high traffic.
+![preview](/media/preview.png)
 
-```ts
-import ms from 'ms';
-import fetch, { Headers, RequestInit } from 'node-fetch';
-import { NextApiRequest, NextApiResponse } from 'next';
+### Customize
 
-interface Reaction {
-  emoji: { name: string };
-}
+#### Live Video
 
-interface Message {
-  id: string;
-  channel_id: string;
-  content: string;
-  timestamp: string;
-  author: {
-    username: string;
-  };
-  reactions?: Reaction[];
-}
+To learn more on how to customise the live video aspect of this template, refer to [this document](/hms.md).
 
-interface ReactionSelector {
-  id: string;
-}
+### **Constants**
 
-// After creating a bot, add the token as an environment var
-const { DISCORD_BOT_TOKEN } = process.env;
+`lib/constants.ts` contains a list of variables you should customize.
 
-// Number of seconds to cache the API response for
-const EXPIRES_SECONDS = 60;
+Note - In case you're looking to add live audio-video to the events template, we'd recommend you to move ahead with DatoCMS for a seamless integration experience. We've created a dato + 100ms integration that will help you to integrate both 100ms and DatoCMS to your vercel account in a few clicks.
 
-// Emoji that should be selected by a whitelisted user
-// in order for this API to return the message
-const EMOJI = '🎥';
+---
 
-// Whitelisted user IDs that are allowed to add the emoji to influence this API
-const USERS = [
-  '752552204124291104' // username
-];
+## **Authentication and Database**
 
-// Discord base API URL
-const API = 'https://discordapp.com/api/';
+Some features won’t work until you set up authentication and database. The demo ([demo.vercel.events](https://demo.vercel.events/)) uses [GitHub OAuth](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app) for authentication and [Redis](https://redis.io/) for database. You can use different providers as you see fit.
 
-// Map of Stage names to Discord channel IDs
-const CHANNELS = new Map<string, string>([
-  ['a', '769350098697191515'],
-  ['c', '769350352226877549'],
-  ['m', '769350396623192074'],
-  ['e', '769350429644685351']
-]);
+### **Authentication**
 
-const api = (url: string, opts: RequestInit = {}) => {
-  const headers = new Headers(opts.headers);
-  headers.set('Authorization', `Bot ${DISCORD_BOT_TOKEN}`);
-  headers.set('User-Agent', 'Discord Bot (https://yoursite.com/conf, v0.1)');
+You need to have GitHub OAuth set up to be able to customize the ticket after signing up on the registration form.
 
-  return fetch(`${API}${url}`, {
-    ...opts,
-    headers
-  });
-};
+First, create a [GitHub OAuth application](https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app) to use for authentication.
 
-async function getReactionSelectors(
-  channelId: string,
-  messageId: string,
-  emoji: string
-): Promise<ReactionSelector[]> {
-  const res = await api(
-    `channels/${channelId}/messages/${messageId}/reactions/${encodeURIComponent(emoji)}`
-  );
-  if (!res.ok) {
-    throw new Error(`Failed to get message reactions: ${await res.text()} (${res.status})`);
-  }
-  return res.json();
-}
+- Set **Authorization Callback URL** as `<your domain>/api/github-oauth`
+- After creating the OAuth app, create a **client secret**.
 
-async function getLatestMessageWithEmoji(
-  messages: Message[],
-  emoji: string,
-  usersWhitelist: string[]
-) {
-  for (const message of messages) {
-    if (!message.content.trim()) {
-      // Empty message, ignore
-      // You could also filter messages here
-      continue;
-    }
-    for (const reaction of message.reactions || []) {
-      if (reaction.emoji.name === emoji) {
-        const selectors = await getReactionSelectors(message.channel_id, message.id, emoji);
-        const selector = selectors.find(r => usersWhitelist.includes(r.id));
-        if (selector) {
-          // The correct emoji was added from a whitelisted user
-          return { message, selector };
-        }
-      }
-    }
-  }
-}
+### **Running Locally:**
 
-export default async function getDiscordMessage(req: NextApiRequest, res: NextApiResponse) {
-  const { stage } = req.query;
-  if (typeof stage !== 'string') {
-    return res.status(400).json({ error: 'Query parameter "stage" must be a string' });
-  }
+- Set the Authorization Callback URL as `http://localhost:3000/api/github-oauth` on GitHub.
+- On `.env.local`, set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` as the **Client ID** of the OAuth app.
+- Set `GITHUB_OAUTH_CLIENT_SECRET` as the **Client secret** of the OAuth app.
+- Finally, make sure the `NEXT_PUBLIC_SITE_ORIGIN` environment variable is set as `http://localhost:3000`. This is required to get the OAuth popup to work locally.
+- Restart the app (`yarn dev`) after editing `.env.local`.
 
-  const channelId = CHANNELS.get(stage);
-  if (!channelId) {
-    return res.status(400).json({ error: `Invalid "stage": ${stage}` });
-  }
+Once it’s set up, sign up using the registration form on the home page (not on a stage page) and then click "Generate with GitHub".
 
-  const apiRes = await api(`channels/${channelId}/messages`);
-  let messages: Message[] = [];
-  if (apiRes.status !== 429 && apiRes.ok) {
-    messages = await apiRes.json();
-  }
+### **On Vercel:**
 
-  if (apiRes.status === 429) {
-    const reset = apiRes.headers.get('X-RateLimit-Reset-After') || 5;
-    res.setHeader(
-      'Cache-Control',
-      `s-maxage=${reset}, public, must-revalidate, stale-while-revalidate`
-    );
-  }
+- Set the Authorization Callback URL as `<your deployment’s URL>/api/github-oauth` on GitHub.
+- Set `NEXT_PUBLIC_GITHUB_OAUTH_CLIENT_ID` and `GITHUB_OAUTH_CLIENT_SECRET` on [Vercel Project Environment Variables Settings](https://vercel.com/docs/environment-variables) for the production environment.
+- Edit `SITE_URL` in `lib/constants.ts` to match your deployment’s URL (no trailing slash).
+- Push the code to redeploy the Project on Vercel.
 
-  const messageToShow = await getLatestMessageWithEmoji(messages, EMOJI, USERS);
-  if (!messageToShow) {
-    return res.status(404).json({ error: 'Could not find message with emoji' });
-  }
+### **Database**
 
-  const body = {
-    username: messageToShow.message.author.username,
-    content: messageToShow.message.content,
-    timestamp: messageToShow.message.timestamp
-  };
+You need a database to save user data and enable the following features:
 
-  // Set caching headers
-  const expires = new Date(Date.now() + ms(`${EXPIRES_SECONDS}s`));
-  res.setHeader('Expires', expires.toUTCString());
-  res.setHeader(
-    'Cache-Control',
-    `s-maxage=${EXPIRES_SECONDS}, immutable, must-revalidate, stale-while-revalidate`
-  );
+- Generating a unique ticket number for each email when signing up on the registration form. If no DB is set up, it’ll always be `1234`.
+- Generating a unique ticket image or ticket URL after signing in with GitHub. If no DB is set up, each ticket image or URL will show generic data.
 
-  return res.status(200).json(body);
-}
-```
+Environment variables determine which database to use. See [lib/db-api.ts](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/db-api.ts) for details and `.env.local.example` for all environment variables. There's support for:
 
-### Demo
-
-The demo is available at https://demo.vercel.events. The data recorded or used on the demo may be removed by Vercel at any point.
+- [Redis](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/db-providers/README.md#redis)
+- [Supabase](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/db-providers/README.md#supabase)
