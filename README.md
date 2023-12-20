@@ -61,7 +61,6 @@ You’ll be asked to install the **100ms with DatoCMS** integration. It lets yo
 
 ## Running Locally
 
-<<<<<<< HEAD
 [![Clone DatoCMS project](https://dashboard.datocms.com/clone/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms%2Fvirtual-event-starter-kit%3Amain)
 =======
 > **NOTE:** Before this setup make sure to deploy the project using 100ms + DatoCMS integration to speed up the setup process.
