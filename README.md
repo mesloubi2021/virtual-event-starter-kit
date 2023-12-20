@@ -1,3 +1,9 @@
+<!--datocms-autoinclude-header start-->
+<a href="https://www.datocms.com/"><img src="https://www.datocms.com/images/full_logo.svg" height="60"></a>
+
+👉 [Visit the DatoCMS homepage](https://www.datocms.com) or see [What is DatoCMS?](#what-is-datocms)
+<!--datocms-autoinclude-header end-->
+
 [![Clone DatoCMS project](https://dashboard.datocms.com/clone/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms%2Fvirtual-event-starter-kit%3Amain)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvirtual-event-starter-kit&project-name=virtual-event-starter-kit&repository-name=virtual-event-starter-kit&demo-title=Virtual%20Event%20Starter%20Kit&demo-description=Jumpstart%20your%20virtual%20event%20and%20scale%20to%20any%20size%20with%20Next.js%20and%20Vercel.&demo-url=https%3A%2F%2Fdemo.vercel.events%2F&demo-image=https%3A%2F%2Fdemo.vercel.events%2Fdeploy.png&integration-ids=oac_7yeSwUoVR5no3SlA9WM6oR7l)
 
@@ -166,3 +172,30 @@ Environment variables determine which database to use. See [lib/db-api.ts](http
 
 - [Redis](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/db-providers/README.md#redis)
 - [Supabase](https://github.com/vercel/virtual-event-starter-kit/blob/main/lib/db-providers/README.md#supabase)
+
+<!--datocms-autoinclude-footer start-->
+-----------------
+# What is DatoCMS?
+<a href="https://www.datocms.com/"><img src="https://www.datocms.com/images/full_logo.svg" height="60"></a>
+
+[DatoCMS](https://www.datocms.com/) is the REST & GraphQL Headless CMS for the modern web.
+
+Trusted by over 25,000 enterprise businesses, agency partners, and individuals across the world, DatoCMS users create online content at scale from a central hub and distribute it via API. We ❤️ our [developers](https://www.datocms.com/team/best-cms-for-developers), [content editors](https://www.datocms.com/team/content-creators) and [marketers](https://www.datocms.com/team/cms-digital-marketing)!
+
+**Quick links:**
+
+- ⚡️ Get started with a [free DatoCMS account](https://dashboard.datocms.com/signup)
+- 🔖 Go through the [docs](https://www.datocms.com/docs)
+- ⚙️ Get [support from us and the community](https://community.datocms.com/)
+- 🆕 Stay up to date on new features and fixes on the [changelog](https://www.datocms.com/product-updates)
+
+**Our featured repos:**
+- [datocms/react-datocms](https://github.com/datocms/react-datocms): React helper components for images, Structured Text rendering, and more
+- [datocms/js-rest-api-clients](https://github.com/datocms/js-rest-api-clients): Node and browser JavaScript clients for updating and administering your content. For frontend fetches, we recommend using our [GraphQL Content Delivery API](https://www.datocms.com/docs/content-delivery-api) instead.
+- [datocms/cli](https://github.com/datocms/cli): Command-line interface that includes our [Contentful importer](https://github.com/datocms/cli/tree/main/packages/cli-plugin-contentful) and [Wordpress importer](https://github.com/datocms/cli/tree/main/packages/cli-plugin-wordpress)
+- [datocms/plugins](https://github.com/datocms/plugins): Example plugins we've made that extend the editor/admin dashboard
+- [datocms/gatsby-source-datocms](https://github.com/datocms/gatsby-source-datocms): Our Gatsby source plugin to pull data from DatoCMS
+- Frontend examples in different frameworks: [Next.js](https://github.com/datocms/nextjs-demo), [Vue](https://github.com/datocms/vue-datocms) and [Nuxt](https://github.com/datocms/nuxtjs-demo), [Svelte](https://github.com/datocms/datocms-svelte) and [SvelteKit](https://github.com/datocms/sveltekit-demo), [Astro](https://github.com/datocms/datocms-astro-blog-demo), [Remix](https://github.com/datocms/remix-example). See [all our starter templates](https://www.datocms.com/marketplace/starters).
+
+Or see [all our public repos](https://github.com/orgs/datocms/repositories?q=&type=public&language=&sort=stargazers)
+<!--datocms-autoinclude-footer end-->
